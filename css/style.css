@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 100%;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.wrap{
+    width: 1200px;
+
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+
+
+}
+.logo{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    h1{
+        padding-left: 300px;
+    }
+
+
+}
+.first-section{
+    display: flex;
+}
+.menu{
+    padding-left: 30px;
+}
+.menu__list{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.menu__list-link {
+
+    height: 60px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+}
+.menu__list-item{
+    padding: 20px;
+    margin-right: 10px;
+    display: block;
+}
+.menu_social{
+    padding-left: 50px;
+    margin-left: auto;
+    margin-right: 350px;
+}
+.menu__list_social{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.menu__list-link_social {
+
+    height: 60px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+}
+.menu__list-item_social{
+    padding: 20px;
+
+    display: block;
+}
+.title-first-section{
+    margin-top: 180px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.text-section{
+    margin-top: 30px;
+}
+.text-section-second{
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 40px;
+}
+.button{
+    border: 1px solid grey;
+    height: 60px;
+    text-decoration: none;
+    color: grey;
+    text-align: left;
+    font-weight: 600;
+    padding: 10px 20px;
+    opacity: 0.7;
+    border-radius: 5%;
+}
+.section-store{
+    display: flex;
+}
+.title-second-section{
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.text-second{
+    margin-left: 80px;
+}
+.text-section-two{
+    margin-top: 10px;
+
+    display: block;
+    margin-bottom: 40px;
+}
+.section-lamp{
+    display: flex;
+}
+
+.phgalery{
+    width: 1200px;
+}
+.section-title-gallery{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+
+}
+.card{
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.title_card{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.photo_card{
+    margin-top: 50px;
+}
+
+.section-title-cards{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+
+}
+.footer{
+
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+textarea{
+    width: 800px;
+}
+
+@media only screen and (max-width: 1215px) {
+    .logo{
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        h1{
+            padding-left: 10px;
+            width: 210px;
+        }
+
+
+    }
+    .phgalery{
+        width: 1000px;
+    }
+    .card{
+        width: 250px;
+        height: 250px;
+        text-align: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+    .cards{
+        padding-left: 40px;
+    }
+
+}
+@media only screen and (max-width: 1015px) {
+    .menu_social{
+        display: none;
+    }
+    .text{
+        margin-left: 100px;
+        margin-right: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 250px;
+
+    }
+    .text-section-second{
+        margin-bottom: 40px;
+    }
+    .title-first-section{
+        margin-top: 80px;
+        font-size: 50px;
+        font-weight: 300;
+    }
+    .photo_first{
+        width: 500px;
+    }
+    .photo_second{
+        width: 350px;
+        padding-left: 10px;
+    }
+    .text-second{
+        margin-left: 50px;
+    }
+    .text-section-two{
+        width: 350px;
+    }
+    .section-store{
+        margin-left: 140px;
+    }
+    hr{
+        display: none;
+    }
+    .photo_lamp{
+        width: 350px;
+    }
+    .text-lamp{
+        padding-left: 50px;
+        margin-left: 100px;
+    }
+
+}
+@media only screen and (max-width: 800px) {
+
+}
+@media only screen and (max-width: 600px) {
+
+}
+
+
+
+
+
+
+
